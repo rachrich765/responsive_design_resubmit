@@ -54,10 +54,12 @@ h1 {
 /*laptop*/
  @media screen and (min-width:1200px) {
   h1 {
-    font-size: 105px;
+    font-size: 95px;
     margin-bottom: 75px;
     margin-top: 85px;
     line-height: 135px;
+    margin-right: -20px;
+    margin-left: -20px;
   }
 }
 
