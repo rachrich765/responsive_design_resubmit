@@ -7,6 +7,7 @@ body {
   grid-template-rows: auto 1fr auto;
     margin-bottom: 40px;
   margin-top: 40px;
+  line-height: 60px;
 }
 
 /*mobile*/
