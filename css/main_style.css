@@ -791,14 +791,14 @@ header nav a.current {
 .column {
     flex: 100%;
     max-width: 100%;
-    padding: 0 4px;
+    padding: 0 16px;
   }
 
 /* laptop */
 @media screen and (min-width:1200px){
 	.column {
-		flex: 23%;
-		max-width: 23%;
+		flex: 10%;
+		max-width: 10%;
 	}
 }
 
@@ -809,6 +809,7 @@ header nav a.current {
   .column {
     flex: 49%;
     max-width: 49%;
+    padding: 0 4px;
 
   }
 }
@@ -825,13 +826,20 @@ header nav a.current {
 		width: 100%;
 		margin-left: 50px;
 		margin-right: 50px;
-		margin-top: 25px;
+		margin-top: 15px;
 
 	}
 }
 
 
 
+.divider {
+  width: 100%;
+}
 
 
-
+@media screen and (min-width:1200px){
+    .divider{
+      display: none;
+    }
+  }
