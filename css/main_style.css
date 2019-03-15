@@ -45,9 +45,6 @@ div {
 /*mobile*/
 h1 {
   font-size: 90px;
-  margin-bottom: 35px;
-  margin-top: 55px;
-  text-align: center;
   color: #0EAC6F;
   line-height: 100px;
 }
@@ -376,13 +373,9 @@ footer a .fa-twitter-square  {
 
 /*mobile / default*/
 .homepage-p{
-  line-height: 40px;
-  margin-top:   40px;
-  margin-bottom:   70px;
+  line-height: 50px;
+  margin-bottom: 70px;
   font-size:  55px;
-  margin-left: 12px;
-   margin-right: 12px;
-   text-align: center;
 
 }
 
@@ -391,7 +384,7 @@ footer a .fa-twitter-square  {
   .homepage-p {
     line-height: 95px;
     margin-top:   40px;
-    margin-bottom:   70px;
+    margin-bottom:  70px;
     font-size:  65px;
     margin-left: 450px;
     margin-right: 450px;
