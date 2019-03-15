@@ -17,6 +17,63 @@ body {
 }
 
 
+ /*background image main page*/
+
+ /*mobile / default*/
+.my-container-1 {
+    position: relative;
+    text-align: center;
+}
+
+/*mobile / default*/
+.my-container-1 h1 {
+  color: #D74056;  
+  margin-top: -8px;
+  opacity: 1;
+} 
+
+/*laptop*/
+@media screen and (min-width:1200px) {
+  .my-container-1 h1 {
+    color: #F21C39;
+   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+   background-image: url("paper.gif");
+  } 
+}
+
+/*ipad*/
+@media screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) and (orientation: portrait){
+    .my-container-1 h1 {
+     color: #F21C39;
+    margin-bottom: 30px;
+    margin-top: 30px;
+        margin-left: 40px;
+    margin-right: 40px;
+    font-size: 95px;
+
+    }
+}
+
+/*mobile*/
+.my-container-1 img  {
+  display:none;
+}
+
+/*ipad */
+@media screen and (min-width:1200px) {
+    .my-container-1 img {
+      width: 100%;
+      left: 0;
+      top: 0;
+      opacity: 0.35;
+    }
+}
+
 
 /*mobile / laptop / ipad*/
 .gallery {
