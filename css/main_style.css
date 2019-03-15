@@ -1,12 +1,11 @@
 body {
   color: #000000;
   font-family: 'Raleway', sans-serif;
-    display: grid;
-  grid-template-rows: auto 1fr auto;
-    margin-bottom: 40px;
-  margin-top: 40px;
   text-align: center;
-   line-height: 48px;
+  line-height: 48px;
+  justify-content: center;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
 }
 
 /*mobile*/
@@ -47,6 +46,9 @@ h1 {
   font-size: 90px;
   color: #0EAC6F;
   line-height: 100px;
+  margin-bottom: -60px;
+  margin-top: 30px;
+
 }
 
 /*laptop*/
@@ -54,10 +56,7 @@ h1 {
   h1 {
     font-size: 95px;
     margin-bottom: 75px;
-    margin-top: 85px;
     line-height: 135px;
-    margin-right: -20px;
-    margin-left: -20px;
   }
 }
 
@@ -311,71 +310,14 @@ footer a .fa-twitter-square  {
   }
 }
 
- /*background image main page*/
-
- /*mobile / default*/
-.my-container-1 {
-    position: relative;
-    overflow: hidden;
-}
-
-/*mobile / default*/
-.my-container-1 h1 {
-  color: #D74056;  
-  margin-top: -8px;
-  opacity: 1;
-} 
-
-/*laptop*/
-@media screen and (min-width:1200px) {
-  .my-container-1 h1 {
-    color: #F21C39;
-    margin-bottom: 30px;
-    margin-top: 30px;
-  } 
-}
-
-/*ipad*/
-@media screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) and (orientation: portrait){
-    .my-container-1 h1 {
-     color: #F21C39;
-    margin-bottom: 30px;
-    margin-top: 30px;
-        margin-left: 40px;
-    margin-right: 40px;
-    font-size: 95px;
-
-    }
-}
-
-/*laptop / ipad*/
-.my-container-1 img  {
-	display:none;
-}
-
-/*mobile */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 736px) 
-  and (orientation: portrait){
-  	.my-container-1 img {
-  		position: absolute;
-    	left: 0;
-    	top: 0;
-    	width: 110%;
-    	height:110%;
-    	opacity: 0.35;
-    }
-}
-
 
 /*mobile / default*/
 .homepage-p{
   line-height: 60px;
   margin-bottom: 70px;
   font-size:  50px;
+ margin-right: -10px;
+ margin-top:   70px;
 
 }
 
@@ -383,8 +325,8 @@ footer a .fa-twitter-square  {
 @media screen and (min-width:1200px){
   .homepage-p {
     line-height: 95px;
-    margin-top:   40px;
-    margin-bottom:  70px;
+    margin-top:   -40px;
+    margin-bottom:  30px;
     font-size:  65px;
     margin-left: 450px;
     margin-right: 450px;
