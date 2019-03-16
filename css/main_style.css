@@ -3,9 +3,7 @@ body {
   font-family: 'Raleway', sans-serif;
   text-align: center;
   line-height: 48px;
-  justify-content: center;
-  display: grid;
-  grid-template-rows: auto 1fr auto;
+
    font-size: 40px;
 
 }
@@ -49,8 +47,6 @@ h1 {
   line-height: 100px;
   margin-bottom: 30px;
   margin-top: 30px;
- margin-left: 10px;
-  margin-right: 10px;
 
 }
 
@@ -325,32 +321,6 @@ footer a .fa-twitter-square  {
     margin-right: 40px;
 
 
-}
-
-/*laptop*/
-@media screen and (min-width:1200px){
-  .homepage-p {
-    line-height: 95px;
-    margin-top:   -40px;
-    margin-bottom:  30px;
-    font-size:  65px;
-    margin-left: 450px;
-    margin-right: 450px;
-  }
-}
-
-/*ipad*/
-@media screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) and (orientation: portrait){
-    .homepage-p {
-      line-height: 45px;
-      margin-top:   40px;
-      margin-bottom:   70px;
-      font-size:  45px;
-      margin-left: 14px;
-      margin-right: 14px;
-  }
 }
 
  /*header*/
@@ -727,8 +697,7 @@ header nav a.current {
 .row {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 2px;
-    justify-content: center;
+  justify-content: center;
   
 }
 
