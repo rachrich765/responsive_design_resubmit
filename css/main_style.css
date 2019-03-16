@@ -712,6 +712,8 @@ header nav a.current {
 	.column {
 		flex: 10%;
 		max-width: 10%;
+    padding: 1px 26px;
+
 	}
 }
 
@@ -722,7 +724,7 @@ header nav a.current {
   .column {
     flex: 49%;
     max-width: 49%;
-    padding: 3.55px;
+    padding: 1px 4px;
 
   }
 }
